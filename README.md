@@ -1,71 +1,10 @@
-# vue-admin-template
-
-English | [简体中文](./README-zh.md)
-
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
-
-**Live demo:** http://panjiachen.github.io/vue-admin-template
+# kingnew-admin-template
 
 
-**The current version is `v4.0+` build on `vue-cli`. If you want to use the old version , you can switch branch to [tag/3.11.0](https://github.com/PanJiaChen/vue-admin-template/tree/tag/3.11.0), it does not rely on `vue-cli`**
+> 这是一个基于 vue-admin-template 升级而来的基础模板，适用于 劲牛 绝大部分运维平台基础模板
 
-## Build Setup
 
-```bash
-# clone the project
-git clone https://github.com/PanJiaChen/vue-admin-template.git
-
-# enter the project directory
-cd vue-admin-template
-
-# install dependency
-npm install
-
-# develop
-npm run dev
-```
-
-This will automatically open http://localhost:9528
-
-## Build
-
-```bash
-# build for test environment
-npm run build:stage
-
-# build for production environment
-npm run build:prod
-```
-
-## Advanced
-
-```bash
-# preview the release environment effect
-npm run preview
-
-# preview the release environment effect + static resource analysis
-npm run preview -- --report
-
-# code format check
-npm run lint
-
-# code format check and auto fix
-npm run lint -- --fix
-```
-
-Refer to [Documentation](https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html) for more information
-
-## Demo
-
-![demo](https://github.com/PanJiaChen/PanJiaChen.github.io/blob/master/images/demo.gif)
-
-## Extra
-
-If you want router permission && generate menu by user roles , you can use this branch [permission-control](https://github.com/PanJiaChen/vue-admin-template/tree/permission-control)
-
-For `typescript` version, you can use [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template) (Credits: [@Armour](https://github.com/Armour))
-
-## Related Project
+## 相关项目
 
 - [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
@@ -74,6 +13,59 @@ For `typescript` version, you can use [vue-typescript-admin-template](https://gi
 - [vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template)
 
 - [awesome-project](https://github.com/PanJiaChen/vue-element-admin/issues/2312)
+
+写了一个系列的教程配套文章，如何从零构建后一个完整的后台项目:
+
+
+## Build Setup
+
+```bash
+# 克隆项目
+git clone https://github.com/herpaydrin/my-template.git
+
+# 进入项目目录
+cd my-template
+
+# 安装依赖
+npm install
+
+# 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
+npm install --registry=https://registry.npm.taobao.org
+
+# 启动服务
+npm run dev
+```
+
+浏览器访问 [http://localhost:9528](http://localhost:9528)
+
+## 发布
+
+```bash
+# 构建测试环境
+npm run build:stage
+
+# 构建生产环境
+npm run build:prod
+```
+
+## 其它
+
+```bash
+# 预览发布环境效果
+npm run preview
+
+# 预览发布环境效果 + 静态资源分析
+npm run preview -- --report
+
+# 代码格式检查
+npm run lint
+
+# 代码格式检查并自动修复
+npm run lint -- --fix
+```
+
+更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
+
 
 ## Browsers support
 
